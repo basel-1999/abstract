@@ -1,3 +1,4 @@
+import 'package:apstractdart/BMW.dart';
 import 'package:apstractdart/apstractdart.dart' as apstractdart;
 import 'package:apstractdart/doog.dart';
 
@@ -6,4 +7,7 @@ void main(List<String> arguments) {
 
   Dog dog = Dog();
   dog.sleep();
+  BMW bmw = BMW();
+  bmw.name = "bmw";
+
 }
