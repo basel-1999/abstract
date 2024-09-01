@@ -9,5 +9,6 @@ void main(List<String> arguments) {
   dog.sleep();
   BMW bmw = BMW();
   bmw.name = "bmw";
-
+  bmw.color="red";
+  bmw.printNameandColor();
 }
